@@ -16,11 +16,40 @@ class HTMLNode():
             return ""
         end_string = ""
         for k, val in self.props.items():
-            end_string += f'{k}="{val}" '
+            end_string += f' {k}="{val}"'
         return end_string
 
     def __repr__(self):
-        print(f"""tag -> {self.tag}
-value -> {self.value}
-children -> {self.children}
-props -> {self.props}""")
+        return(f'HTMLNode({self.tag}, {self.value}, children: {self.children}, {self.props})')
+
+
+class LeafNode(HTMLNode):
+    def __init__(self, tag=None, value=None, props=None):
+        super().__init__(tag, value, None, props)
+
+    def to_html(self):
+        if (self.value == None):
+            raise ValueError
+        if (self.tag == None):
+            return self.value
+        if (self.props != None):
+            return f'<{self.tag} {self.props}>{self.value}</{self.tag}>'
+        return f'<{self.tag}>{self.value}</{self.tag}>'
+
+    def __repr__(self):
+        return(f'HTMLNode({self.tag}, {self.value}, {self.props})')
+
+
+class ParentNode(HTMLNode):
+    def __init__(self, tag, children, props=None):
+        super().__init__(tag,None, children, props)
+    def to_html(self):
+        html = ""
+        if (self.tag == None):
+            raise ValueError
+        if (self.children == None):
+            raise ValueError("The children is missing")
+        for child in self.children :
+            html += child.to_html()
+        return f'<{self.tag}>{html}</{self.tag}>'
+        
