@@ -22,10 +22,15 @@ def text_node_to_html_node(text_node: TextNode) -> LeafNode:
     if text_node.text_type == TextType.CODE:
         return LeafNode("code", text_node.text)
     if text_node.text_type == TextType.LINK:
-        return LeafNode("a", text_node.text, "href")
+        if text_node.url is None:
+            raise ValueError("invalid URL")
+        return LeafNode("a", text_node.text, {"href": text_node.url})
     if text_node.text_type == TextType.IMAGE:
-        return LeafNode("img", "", ["src", "alt"])
-    raise Exception("can't do that bro")
+        if text_node.url is None:
+            raise ValueError("invalid URL")
+        return LeafNode("img", "", {"src": text_node.url, "alt": text_node.text})
+    raise ValueError(f"invalid text type: {text_node.text_type}")
+
 
 def split_nodes_delimiter(
     old_nodes: list[TextNode], delimiter: str, text_type: TextType
