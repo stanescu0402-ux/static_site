@@ -14,11 +14,11 @@ if len(sys.argv) > 1:
 else:
     basepath = "/"
 def main():
-    print("Deleting public directory...")
+    print("Deleting docs directory...")
     if os.path.exists(dir_path_docs):
         shutil.rmtree(dir_path_docs)
 
-    print("Copying static files to public directory...")
+    print("Copying static files to docs directory...")
     copy_files_recursive(dir_path_static, dir_path_docs)
 
     print("Generating page...")
