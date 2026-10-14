@@ -1,5 +1,9 @@
 # Rosh Hashanah
 
+[< Back Home](/)
+
+![Rosh Hashanah](/images/rosh.png)
+
 Rosh Hashanah este Anul Nou Evreiesc, marcand inceputul Zilelor Sacre (High Holy Days). Este o perioada de introspectie spirituala, judecata si rugaciune pentru anul care vine.
 
 ## Perioada

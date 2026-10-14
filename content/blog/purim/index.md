@@ -1,5 +1,9 @@
 # Purim
 
+[< Back Home](/)
+
+![Purim](/images/purim.png)
+
 Purim comemoreaza salvarea poporului evreu din planul malefic al lui Haman in anticul Imperiu Persan, asa cum este descris in cartea biblica a Esterei.
 
 ## Perioada

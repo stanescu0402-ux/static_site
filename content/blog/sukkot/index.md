@@ -1,5 +1,9 @@
 # Sukkot
 
+[< Back Home](/)
+
+![Sukkot](/images/Sukkoth.png)
+
 Sukkot, Sărbătoarea Corturilor, este o sarbatoare plina de bucurie de o saptamana care comemoreaza cei patruzeci de ani petrecuti de israeliti rătăcind in desert si locuind in adaposturi temporare.
 
 ## Perioada

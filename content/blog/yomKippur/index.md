@@ -1,5 +1,9 @@
 # Yom Kippur
 
+[< Back Home](/)
+
+![Yom Kippur](/images/Yom.png)
+
 Yom Kippur, cunoscuta si ca Ziua Ispasirii, este cea mai sfanta si sobra zi din anul evreiesc. Temele sale centrale sunt pocainta si cautarea iertarii de la Dumnezeu si de la semeni.
 
 ## Perioada

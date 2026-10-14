@@ -1,5 +1,10 @@
 # Pesach (Paștele Evreiesc)
 
+[< Back Home](/)
+
+![Pesach](/images/rememberPesach.png)
+
+
 Pesach comemoreaza eliberarea israelitilor din sclavie in Egiptul antic si tranzitia lor de la robie la libertate sub calauzire divina.
 
 ## Perioada

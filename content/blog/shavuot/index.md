@@ -1,5 +1,9 @@
 # Shavuot
 
+[< Back Home](/)
+
+![Shavuot](/images/Moritz.png)
+
 Shavuot, Sărbătoarea Săptămânilor, celebreaza primirea Torei de catre poporul evreu pe Muntele Sinai si marcheaza, de asemenea, punctul culminant al recoltei de cereale din antichitate.
 
 ## Perioada
